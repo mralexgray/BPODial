@@ -12,12 +12,18 @@
 
 @interface BPOAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (weak) IBOutlet NSWindow *window;
 @property (weak) IBOutlet BPODial *dial;
+
+@property (weak) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSTextField *label;
-
 @property (weak) IBOutlet NSSlider *testSlider;
+@property (assign) NSUInteger value;
+@property (assign, nonatomic) CGFloat scale;
 
-- (IBAction)valueChanged:(NSSlider *)sender;
 
+@property (readonly) CGFloat relativeRadius;
+
+@property (readonly) NSRect dialFrame;
+
+//- (IBAction)valueChanged:(NSSlider *)sender;
 @end

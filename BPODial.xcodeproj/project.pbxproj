@@ -16,7 +16,6 @@
 		5B68235C1737D8CA008E9BFC /* BPODial.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B68235B1737D8CA008E9BFC /* BPODial.m */; };
 		5B68235F1737DA8B008E9BFC /* BPOSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B68235E1737DA8B008E9BFC /* BPOSliderCell.m */; };
 		5B68236217380183008E9BFC /* NSAffineTransform+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B68236117380183008E9BFC /* NSAffineTransform+Rotation.m */; };
-		5B68236517390B30008E9BFC /* VectorMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B68236417390B30008E9BFC /* VectorMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +38,6 @@
 		5B68235E1737DA8B008E9BFC /* BPOSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPOSliderCell.m; sourceTree = "<group>"; };
 		5B68236017380183008E9BFC /* NSAffineTransform+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAffineTransform+Rotation.h"; sourceTree = "<group>"; };
 		5B68236117380183008E9BFC /* NSAffineTransform+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAffineTransform+Rotation.m"; sourceTree = "<group>"; };
-		5B68236317390B30008E9BFC /* VectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorMath.h; sourceTree = "<group>"; };
-		5B68236417390B30008E9BFC /* VectorMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +121,6 @@
 				5B68235E1737DA8B008E9BFC /* BPOSliderCell.m */,
 				5B68236017380183008E9BFC /* NSAffineTransform+Rotation.h */,
 				5B68236117380183008E9BFC /* NSAffineTransform+Rotation.m */,
-				5B68236317390B30008E9BFC /* VectorMath.h */,
-				5B68236417390B30008E9BFC /* VectorMath.m */,
 			);
 			path = BPODial;
 			sourceTree = "<group>";
@@ -200,7 +195,6 @@
 				5B68235C1737D8CA008E9BFC /* BPODial.m in Sources */,
 				5B68235F1737DA8B008E9BFC /* BPOSliderCell.m in Sources */,
 				5B68236217380183008E9BFC /* NSAffineTransform+Rotation.m in Sources */,
-				5B68236517390B30008E9BFC /* VectorMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

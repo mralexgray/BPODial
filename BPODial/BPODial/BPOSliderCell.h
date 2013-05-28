@@ -10,22 +10,16 @@
 
 @interface BPOSliderCell : NSSliderCell
 
-// The available aperture in degrees. Acceptable range is 25° to 180°
-@property (nonatomic, assign) CGFloat apertureInDegrees;
+@property (nonatomic,assign) BOOL 		concave;						// defines the visual style of the knob
+@property (nonatomic,strong) NSString  *minLabel,					// label at the minimum tick mark
+													*maxLabel;					// label at the maximum tick mark
+@property (nonatomic,assign) CGFloat 	apertureInDegrees,		// The available aperture in degrees. Acceptable range is 25° to 180°
+													tickMarkRadius, 			// defines how big the tick marks are
+													cellSize;					// defines the cell size
 
-// defines how big the tick marks are
-@property (nonatomic, assign) CGFloat tickMarkRadius;
+@property (readonly) CGFloat 	knobRadius, tickMarkDistance;		
 
-// defines the cell size
-@property (nonatomic, assign) CGFloat cellSize;
-
-// defines the visual style of the knob
-@property (nonatomic, assign) BOOL concave;
-
-// label at the minimum tick mark
-@property (nonatomic, strong) NSString *minLabel;
-
-// label at the maximum tick mark
-@property (nonatomic, strong) NSString *maxLabel;
+@property (nonatomic) NSFont *font;
+@property (nonatomic) NSColor *fontColor, *fontShadowColor;
 
 @end

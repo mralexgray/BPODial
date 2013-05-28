@@ -27,9 +27,9 @@ static NSSize initInset;
 	 self.value = 10;
 	initInset = (NSSize) { _dial.frame.origin.x, _dial.frame.origin.y};
 	
-	[self.dial bind:@"numberOfTickMarks" toObject:self withKeyPath:@"value" options:nil];
+//	[self.dial bind:@"numberOfTickMarks" toObject:self withKeyPath:@"value" options:nil];
 //	[self.dial bind:@"cellSize" toObject:self withKeyPath:@"dialFrame" options:nil];
-	[self.dial bind:@"tickMarkRadius" toObject:self withKeyPath:@"relativeRadius" options:nil];
+//	[self.dial bind:@"tickMarkRadius" toObject:self withKeyPath:@"relativeRadius" options:nil];
 //	 = [sender integerValue];
    [self.label bind:@"stringValue" toObject:self withKeyPath:@"value" options:nil];//
 //	 NSString stringWithFormat:@"Value: %ld", sender.integerValue];
